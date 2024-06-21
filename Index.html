@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+  <title>Todo App</title>
+</head>
+<body>
+  <!------- Main App Div --------->
+  <div class="app">
+    <!----------For Whole Todo layout-------------->
+    <div class="container">
+      <!-----inuput and add button------>
+      <div id="wrapper">
+        <input type="text" placeholder="Task to be done...">
+        <button id="add-btn" >ADD</button>
+      </div>
+      <!--------Counter------>
+      <div id="tasks">
+        <p id="pending-tasks">
+          You have <span class="count-value">0</span> task(s) to be completed
+        </p>
+      </div>
+    </div>
+    <!----------Error div--------->
+    <p id="error">Input cannot be empty !</p>
+    <!-----------End of Main div------------>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
